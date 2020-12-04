@@ -1,0 +1,16 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: openeewdevicemgmt
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 512MB
+  domain: mybluemix.net
+  host: openeew-devicemgmt
+  services:
+    - Cloudant-openeew
+    - Internet of Things Platform-eew
+  env:
+    OPTIMIZE_MEMORY: true
