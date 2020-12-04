@@ -10,7 +10,8 @@ applications:
   domain: mybluemix.net
   host: openeew-devicemgmt
   services:
-    - Cloudant-openeew
-    - Internet of Things Platform-eew
+    - Cloudant-openeew-93573
+    - Internet of Things Platform-eew-82838
   env:
     OPTIMIZE_MEMORY: true
+

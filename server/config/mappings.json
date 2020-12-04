@@ -1,0 +1,116 @@
+{
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.apikey",
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.host",
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_url": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.url",
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.username",
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  },
+  "cloudant_serviceInfo": {
+    "searchPatterns": [
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.serviceInfo",
+      "file:/server/localdev-config.json:$.cloudant_serviceInfo"
+    ]
+  },
+  "iotPlatform_apiKey": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.apiKey",
+      "file:/server/localdev-config.json:$.iotPlatform_apiKey"
+    ]
+  },
+  "iotPlatform_apiToken": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.apiToken",
+      "file:/server/localdev-config.json:$.iotPlatform_apiToken"
+    ]
+  },
+  "iotPlatform_error": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.error",
+      "file:/server/localdev-config.json:$.iotPlatform_error"
+    ]
+  },
+  "iotPlatform_http_host": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.http_host",
+      "file:/server/localdev-config.json:$.iotPlatform_http_host"
+    ]
+  },
+  "iotPlatform_iotCredentialsIdentifier": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.iotCredentialsIdentifier",
+      "file:/server/localdev-config.json:$.iotPlatform_iotCredentialsIdentifier"
+    ]
+  },
+  "iotPlatform_mqtt_host": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.mqtt_host",
+      "file:/server/localdev-config.json:$.iotPlatform_mqtt_host"
+    ]
+  },
+  "iotPlatform_mqtt_s_port": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.mqtt_s_port",
+      "file:/server/localdev-config.json:$.iotPlatform_mqtt_s_port"
+    ]
+  },
+  "iotPlatform_mqtt_u_port": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.mqtt_u_port",
+      "file:/server/localdev-config.json:$.iotPlatform_mqtt_u_port"
+    ]
+  },
+  "iotPlatform_org": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.org",
+      "file:/server/localdev-config.json:$.iotPlatform_org"
+    ]
+  },
+  "iotPlatform_serviceInfo": {
+    "searchPatterns": [
+      "cloudfoundry:$['iotf-service'][0].credentials.serviceInfo",
+      "file:/server/localdev-config.json:$.iotPlatform_serviceInfo"
+    ]
+  }
+}
